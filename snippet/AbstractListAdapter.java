@@ -51,6 +51,7 @@ public abstract class AbstractListAdapter<T, H> extends ArrayAdapter<T> {
 
     /**
      * Create a ViewHolder which will be attached to the item view
+     * 
      *
      * @param itemView the item view
      * @return
