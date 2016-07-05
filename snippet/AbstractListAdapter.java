@@ -51,7 +51,6 @@ public abstract class AbstractListAdapter<T, H> extends ArrayAdapter<T> {
 
     /**
      * Create a ViewHolder which will be attached to the item view
-     * 
      *
      * @param itemView the item view
      * @return
@@ -59,7 +58,7 @@ public abstract class AbstractListAdapter<T, H> extends ArrayAdapter<T> {
     protected abstract H createViewHolder(View itemView);
 
     /**
-     *
+     *  Update the View that displays the data at the specified position in the data set.
      *
      * @param position the position of the item whose view we want.
      * @param holder the ViewHolder
